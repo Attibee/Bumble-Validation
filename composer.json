@@ -1,0 +1,25 @@
+{
+    "name": "bumble/validation",
+    "description": "Provides classes for configurable validation of user input, such as email, passwords, file uploads, and more.",
+    "homepage": "http://bumble.attibee.com",
+    "support": {
+        "email": "a@attibee.com",
+        "irc": "irc://irc.freenode.org/attibee-bumble"
+    },
+    "license": "Apache-2.0",
+    "keywords": [
+        "attibee",
+        "bumble",
+        "validation"
+    ],
+    "version": "1.0-dev",
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Bumble\\Validation\\": "src/"
+        }
+    },
+    "suggest": {
+        "bumble\\form": "Integrates with bumble/validation to create forms that can be validated."
+    }
+}
