@@ -20,6 +20,6 @@
         }
     },
     "suggest": {
-        "bumble\\form": "Integrates with bumble/validation to create forms that can be validated."
+        "bumble/form": "Integrates with bumble/validation to create forms that can be validated."
     }
 }
