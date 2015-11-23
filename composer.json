@@ -19,6 +19,9 @@
             "Bumble\\Validation\\": "src/"
         }
     },
+    "require": {
+        "bumble/uri": "*"
+    },
     "suggest": {
         "bumble/form": "Integrates with bumble/validation to create forms that can be validated."
     }
